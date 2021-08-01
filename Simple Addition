@@ -1,0 +1,9 @@
+public class Addition
+{
+	public static void main(String args[])
+	{
+		int n1=10,n2=5,sum;
+		sum=n1+n2;
+		System.out.println("the answer="+sum);
+	}
+}
