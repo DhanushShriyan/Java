@@ -1,0 +1,11 @@
+public class AllInOne {
+	public static void main (String args[]) {
+		int n1=10,n2=10,sum,diff,prod,quo;
+		sum=n1+n2;
+		diff=n1-n2;
+		prod=n1*n2;
+		quo=n1/n2;
+		System.out.println("\n The sum is="+sum+"\n The difference is "
+		+diff+"\n The product is "+prod+"\n The quotient is "+quo);
+	}
+}
