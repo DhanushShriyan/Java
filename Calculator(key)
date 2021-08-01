@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Calculator {
+public static void main(String args[])
+{
+	int n1,n2,key,sum,diff,prod,quot;
+	Scanner sc = new Scanner(System.in);
+	System.out.println("Enter the first Number");
+	n1 = sc.nextInt();
+	System.out.println("Enter the Second Number");
+	n2 = sc.nextInt();
+	System.out.println("Enter the Key \n 1-Addition \n 2-Subtraction \n 3-Multiplication \n 4-Division");
+	key = sc.nextInt();
+	switch(key)
+	{
+	case 1:
+		sum=n1+n2;
+		System.out.println("Sum is "+sum);
+		break;
+	case 2:
+		diff=n1-n2;
+		System.out.println("Differenec is "+diff);
+		break;
+	case 3:
+		prod=n1*n2;
+		System.out.println("Prod is "+prod);
+		break;
+	case 4:
+		quot=n1/n2;
+		System.out.println("Quotient is "+quot);
+		break;
+	default:
+		System.out.println("Enter value only between 1 to 4");
+	}
+}
+}
