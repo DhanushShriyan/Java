@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Alltogether {
+	public static void main (String args[])
+	{
+	int n1,n2,sum,diff,prod,quo;
+	Scanner sc=new Scanner(System.in);
+	System.out.printf("Enter the first number");
+	n1 = sc.nextInt();
+	System.out.printf("Enter the second number");
+	n2=sc.nextInt();
+	sum=n1+n2;
+	diff=n1-n2;
+	prod=n1*n2;
+	quo=n1/n2;
+	System.out.println("\n the sum="+sum+"\n the difference="+diff+"\n the product="+prod+"\n the quotent="+quo);
+	}
+}
