@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class ScannerTest {
+	public static void main (String args[])
+	{
+		int n1,n2,sum;
+		Scanner sc =new Scanner(System.in);
+		System.out.printf("Enter the first number");
+		n1=sc.nextInt();
+		System.out.printf("Enter the second");
+		n2=sc.nextInt();
+		sum=n1+n2;
+		System.out.println("The sum two number is"+sum);
+	}	
+}
