@@ -1,0 +1,13 @@
+public class forjava {
+public static void main (String args[])
+{
+	int n=5,i;
+	//for loop
+	for(i=1;i<=n;i++)
+	{
+		System.out.println("java is fun");
+	}
+		
+}
+
+}
