@@ -1,0 +1,8 @@
+public class multiplcation {
+public static void main (String args[])
+{
+int n1=5,n2=5,multi;
+multi=n1*n2;
+System.out.println("The anwer is="+multi);
+}
+}
