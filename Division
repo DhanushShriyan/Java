@@ -1,0 +1,9 @@
+public class Division {
+	public static void main (String agrs[])
+	{
+		int n1=10,n2=2,di;
+		di=n1/n2;
+		System.out.println("The answer is="+di);
+	}
+
+}
