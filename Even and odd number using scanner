@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class EvenOdd {
+public static void main (String args[])
+{
+	int i,n,key;
+	Scanner sc=new Scanner (System.in);
+	System.out.println("Enter the numbers");
+	n=sc.nextInt();
+	System.out.println("Enter the key \n 1=even \n number 2=odd");
+	key=sc.nextInt();
+	switch(key)
+	{
+		case 1:
+			for(i=1;i<=n;i++)
+			{
+				if(i%2==0)
+				System.out.println(" "+i+"  ");
+			}
+			break;
+		case 2:
+			for(i=1;i<=n;i++)
+			{
+				if(i%2==1)
+				System.out.println(" "+i+"  ");
+			}
+			break;
+		default:
+			System.out.println("Enter only number 1 and 2");
+			break;
+	}			
+}
+}
