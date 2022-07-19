@@ -1,0 +1,16 @@
+import java.io.*;
+public class geek
+{
+    static void vowel_or_consonant(char y)
+    {
+        if(y=='a' || y=='e' || y=='i' || y=='o' || y=='u')
+            System.out.println("Its is a vowel");
+        else
+            System.out.println("Its is an consonant");
+    }
+    static void main(String[] args)
+    {
+        vowel_or_consonant('b');
+        vowel_or_consonant('u');
+    }
+}
