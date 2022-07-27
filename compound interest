@@ -1,0 +1,11 @@
+import java.io.*;
+class GFG
+{
+    public static void main(String []arg)
+    {
+        double principle = 1200 , rate = 5.4 , time = 2;
+        double CI = principle * (Math.pow((1 + rate / 100), time));
+        System.out.println("compound interest is" + CI);
+    }
+
+}
