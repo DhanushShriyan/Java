@@ -1,0 +1,38 @@
+import java.util.Scanner;
+class GFG
+{
+    public static void main (String[]args)
+    {
+        int n1,n2,key,sum,diff,prod,quo;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the first number");
+        n1=sc.nextInt();
+        System.out.println("Enter the second number");
+        n2=sc.nextInt();
+        System.out.println("Enter the key \n1-Addition \n2-subration \n3-multiplication \n4-division");
+        key=sc.nextInt();
+        switch(key)
+        {
+            case 1:
+                sum=n1+n2;
+                System.out.println("sum = "+sum);
+                break;
+            case 2:
+                diff=n1-n2;
+                System.out.println("difference = "+diff);
+                break;
+            case 3:
+                prod=n1*n2;
+                System.out.println("product = "+prod);
+                break;
+            case 4:
+                quo=n1/n2;
+                System.out.println("quotient = "+quo);
+                break;
+            default:
+                System.out.println("Enter only number between 1 and 4");
+
+
+        }
+    }
+}
