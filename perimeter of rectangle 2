@@ -1,0 +1,10 @@
+import java.io.*;
+class GFG
+{
+    public static void main(String[]args)
+    {
+        int length = 4,breadth = 4, perimeter;
+        perimeter= 2 * (length*breadth);
+        System.out.println("perimeter = "+perimeter);
+    }
+}
