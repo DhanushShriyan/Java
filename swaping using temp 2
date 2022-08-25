@@ -1,0 +1,12 @@
+import java.io.*;
+class GFG
+{
+    public static void main(String[]args)
+    {
+        int a=4,b=8,temp;
+        temp=a;
+        a=b;
+        b=temp;
+        System.out.println("After swaping the value a = "+ a +" and the value of b = "+ b);
+    }
+}
