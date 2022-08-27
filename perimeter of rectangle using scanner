@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.Scanner;
+class GFG
+{
+    public static void main(String[]args)
+    {
+        int length,breadth,perimeter;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the length ");
+        length=sc.nextInt();
+        System.out.println("Enter the breadth");
+        breadth=sc.nextInt();
+        perimeter=2*(length*breadth);
+        System.out.println("The perimeter of the rectangle is ="+perimeter);
+    }
+}
